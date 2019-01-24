@@ -1,21 +1,9 @@
-# Global financing with blockchain
 
-The Global Finance application using blockchain technology tracks actions on an order by the various members of a network -- buyer, seller, provider, shipper, and finance company. These actions include:
+# Lennart notes: 
 
-* Buyer creates the order
-* Seller contacts a provider for the items
-* Shipper delivers the items
-* Finance company processes payments to the seller
-
-This use case addresses dispute resolution and can be applied across industry verticals to resolve disputes. This [use case](https://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/crse0401.html?Open) is inspired by the RedBook tutorial by Bob Dill and uses the same application interface. This use case employs a Node.js smart contract and a Node.js web application.
-
-The code pattern demonstrates how a Node.js smart contract can be packaged using the IBM Blockchain Platform Extension for VS Code. Then, using the extension, you can set up a local instance of the Hyperledger Fabric network, on which you can install and instantiate the contract. The Node.js web application can interact with the network using the 'fabric-network' sdk.
-
-When you have completed this code pattern, you will understand how to:
-
-* Develop a Node.js smart contract
-* Package and deploy the smart contract to a local instance of Hyperledger Fabric using IBM Blockchain Platform Extension for VS Code
-* Develop a Node.js blockchain web application to interact with the deployed Fabric network
+Do nvm use 8.12.0
+docker rmi $(docker images -q)
+In VSCode teardown
 
 
 # Architecture flow
