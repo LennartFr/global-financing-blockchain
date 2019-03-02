@@ -61,6 +61,19 @@ Clone this repository in a folder of your choice:
 git clone https://github.com/IBM/global-financing-blockchain.git
 ```
 
+The github repository consists of the following items:
+
+1. CONTRIBUTING.md	
+1. MAINTAINERS.md	
+1. contract directory. Contains Smart Contract	
+1. web-app directory. Contains the web-app code
+1. LICENSE		
+1. README.md	
+1. docs directory. Contains the docs screen capture images 
+
+
+
+
 
 ## 2. Use the VS Code extension to set up a smart contract on a basic Fabric network
 
