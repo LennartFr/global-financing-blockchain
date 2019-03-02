@@ -55,7 +55,7 @@ You will need to follow the requirements for the [IBM Blockchain Platform Extens
 
 ## 1. Clone the repo
 
-Clone this repository in a folder your choice:
+Clone this repository in a folder of your choice:
 
 ```
 git clone https://github.com/IBM/global-financing-blockchain.git
