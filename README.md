@@ -163,6 +163,16 @@ In a new terminal, navigate to the `web-app` directory:
   ```bash
   npm start
   ```
+  
+  To use the user interface, begin by doing:
+  
+  ````
+  admin preload network
+  ````
+  
+
+
+
 
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/app-view.png">
