@@ -65,7 +65,7 @@ The github repository consists of the following items:
 
 1. CONTRIBUTING.md	
 1. MAINTAINERS.md	
-1. contract directory. Contains Smart Contract	
+1. contract directory. Contains the Smart Contract	
 1. web-app directory. Contains the web-app code
 1. LICENSE		
 1. README.md	
@@ -78,6 +78,11 @@ The github repository consists of the following items:
 ## 2. Use the VS Code extension to set up a smart contract on a basic Fabric network
 
 Open Visual Studio code and open the `contract` folder.
+
+<p align="center">
+  <img src="docs/doc-images/alf-vs-code-1.png">
+</p>
+
 
 ### Package the smart contract
 
