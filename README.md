@@ -74,7 +74,11 @@ The github repository consists of the following items:
 
 ## 2. Use the VS Code extension to set up a smart contract on a basic Fabric network
 
-Open Visual Studio code and open the `contract` folder.
+Open Visual Studio code and open the `contract` folder by selecting File/Open from the VSCode action bar.
+
+Normally we would start by doing selecting 'Create a new Smart Contract Project'. But this has already been done
+for us in the GitHub repo, we can see the result in the Contract directory that we pulled down with the Git command.
+So we cakn start directly with thr second step, 'Package  smart contract project'.
 
 <p align="center">
   <img src="docs/doc-images/alf-vscode1.png">
