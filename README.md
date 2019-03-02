@@ -1,5 +1,5 @@
 
-# Architecture flow
+# Architecture
 
 <p align="center">
   <img src="docs/doc-images/arch-flow.png">
@@ -13,19 +13,15 @@ The developer uses the IBM Blockchain Platform Extension for VS Code to:
 1. Instantiate the chaincode on the peer node.
 1. Use a Global Finance application to interact with the Hyperledger Fabric network through API calls using the `fabric-network` npm library. Admins can also use the application to create new participants.
 
-# Included components
+# Components
 
 * [IBM Blockchain Platform Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) is designed to assist users in developing, testing, and deploying smart contracts -- including connecting to Hyperledger Fabric environments.
 * [Hyperledger Fabric v1.4](https://hyperledger-fabric.readthedocs.io) is a platform for distributed ledger solutions, underpinned by a modular architecture that delivers high degrees of confidentiality, resiliency, flexibility, and scalability.
 * [Visual Studio Code](https://code.visualstudio.com/download) is a code editor that's redefined and optimized for building and debugging modern web and cloud applications.
 
-## Featured technologies
+## Technologies used
 + [Nodejs](https://www.python.org/) is an open source, cross-platform JavaScript run-time environment that executes server-side JavaScript code.
 + [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JavaScript.
-
-## Running the application
-
-Follow these steps to set up and run this code pattern. The steps are described in detail below.
 
 ### Prerequisites
 
@@ -37,12 +33,7 @@ You will need to follow the requirements for the [IBM Blockchain Platform Extens
 - [Docker version v17.06.2-ce or greater](https://www.docker.com/get-docker)
 - [Docker Compose v1.14.0 or greater](https://docs.docker.com/compose/install/)
 
-### Steps
-
-1. [Clone the repo](#1-clone-the-repo)
-2. [Use the VS Code extension to set up a smart contract on a basic Fabric network](#2-use-the-vs-code-extension-to-set-up-a-smart-contract-on-a-basic-fabric-network)
-3. [Run the application](#3-run-the-application)
-
+# Run the application
 
 ## 1. Clone the repo
 
@@ -63,7 +54,7 @@ The github repository consists of the following items:
 1. docs directory. Contains the docs screen capture images 
 
 
-## 2. Use the VS Code extension to set up a smart contract on a basic Fabric network
+## 2. Use the VS Code extension to install a smart contract on a basic Fabric network
 
 Open Visual Studio code and open the `contract` folder by selecting File/Open from the VSCode action bar.
 
@@ -76,7 +67,7 @@ So we can start directly with the second step, 'Package  smart contract project'
 </p>
 
 
-### 2.1 Package the smart contract
+## 2.1 Package the smart contract
 
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
@@ -90,7 +81,7 @@ Click the `IBM Blockchain Platform` extension button on the left. This will show
   <img height="500" src="docs/doc-images/alf-ibm-blockchain-extension.png">
 </p>
 
-### Setup local_fabric
+## 2.2 Setup a local_fabric
 
 Click on `local_fabric` to start a network. This will download the Docker images required for a local Fabric setup, and start the network. You should see the output window as the network sets up.
 
@@ -101,7 +92,7 @@ Click on `local_fabric` to start a network. This will download the Docker images
 Click on `local_fabric` again; it should have a full white circle next to it. This should bring up `mychannel`. You are now ready to install the smart contract.
 
 
-### 2.2 Install and instantiate the smart contract
+## 2.3 Install the smart contract
 
 Click on `mychannel`, then `Peers`. This will display `peer0.org1.example.com`. Right click on it and choose `Install Smart Contract`:
 
@@ -114,6 +105,8 @@ Choose the `globalfinancing@0.0.1` contract:
 <p align="center">
   <img width="500" src="docs/doc-images/choose-smart-contract.png">
 </p>
+
+## 2.4 Instantiate the smart contract
 
 You are now ready to instantiate the smart contract. Right click on `mychannel` and choose `Instantiate Smart Contract`:
 
@@ -174,7 +167,7 @@ Unified member's view:
 </div>
 
 
-## Extending the code pattern
+# Extending the code pattern
 This application can be expanded in a couple of ways:
 * Create a wallet for every member and use the member's wallet to interact with the application.
 * Update the application to interact through the IBM Blockchain Platform starter plan on IBM Cloud.
