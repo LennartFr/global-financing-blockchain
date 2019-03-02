@@ -2,7 +2,9 @@
 # Lennart notes: 
 
 Do nvm use 8.12.0
+
 docker rmi $(docker images -q)
+
 In VSCode teardown
 
 
