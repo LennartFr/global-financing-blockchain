@@ -80,7 +80,7 @@ The github repository consists of the following items:
 Open Visual Studio code and open the `contract` folder.
 
 <p align="center">
-  <img src="docs/doc-images/alf-vs-code-1.png">
+  <img src="docs/doc-images/alf-vscode-1.png">
 </p>
 
 
