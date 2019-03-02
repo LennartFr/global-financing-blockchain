@@ -96,7 +96,7 @@ Press the `F1` key to see the different VS code options. Choose `IBM Blockchain 
 Click the `IBM Blockchain Platform` extension button on the left. This will show the packaged contracts on top and the blockchain connections on the bottom.
 
 <p align="center">
-  <img height="500" src="docs/doc-images/ibm-blockchain-extension.png">
+  <img height="500" src="docs/doc-images/alf-ibm-blockchain-extension.png">
 </p>
 
 ### Setup local_fabric
