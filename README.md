@@ -85,7 +85,7 @@ So we cakn start directly with thr second step, 'Package  smart contract project
 </p>
 
 
-### Package the smart contract
+### 2.1 Package the smart contract
 
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
@@ -110,7 +110,7 @@ Click on `local_fabric` to start a network. This will download the Docker images
 Click on `local_fabric` again; it should have a full white circle next to it. This should bring up `mychannel`. You are now ready to install the smart contract.
 
 
-### Install and instantiate the smart contract
+### 2.2 Install and instantiate the smart contract
 
 Click on `mychannel`, then `Peers`. This will display `peer0.org1.example.com`. Right click on it and choose `Install Smart Contract`:
 
@@ -169,11 +169,9 @@ In a new terminal, navigate to the `web-app` directory:
   ````
   admin preload network
   ````
-  
-
-
-
-
+  You can then create orders and see how the different actors in the supply chain process them.
+  The actions in the supply chain is driven by the smart contract globalFinance.js in the contract/lib directory.
+   
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/app-view.png">
 </div>
