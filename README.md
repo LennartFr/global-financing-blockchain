@@ -169,6 +169,17 @@ Unified member's view:
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
+# Debug the application
+
+The application uses Node.js and can sometimes get the wrong version of Node.
+
+To debug, do 
+
+npm rebuild, npm install
+
+nvm use 8.12.0
+
+or in the Visual Studio Code console, Local Fabric Ops pane, do Teardown and Restart Fabric Runtime  
 
 # Extending the code pattern
 This application can be expanded in a couple of ways:
