@@ -169,7 +169,8 @@ In a new terminal, navigate to the `web-app` directory:
   ````
   admin preload network
   ````
-  You can then create orders and see how the different actors in the supply chain process them.
+  You can then create orders and execute orders, please note that you have to execute the order you created to see how it    
+  is handled by the four actors in the supply chain. 
   The actions in the supply chain is driven by the smart contract globalFinance.js in the contract/lib directory.
    
 <div style='border: 2px solid #f00;'>
