@@ -33,7 +33,7 @@ You will need to follow the requirements for the [IBM Blockchain Platform Extens
 - [Docker version v17.06.2-ce or greater](https://www.docker.com/get-docker)
 - [Docker Compose v1.14.0 or greater](https://docs.docker.com/compose/install/)
 
-# Run the application
+# Build the application
 
 Note: to re-run the application from scratch: click on the three dots to the right of
 'Local Fabric Ops' in the left pane of the Visual Studio Code and select Teardown Fabric Runtime.
@@ -133,7 +133,7 @@ You can press **Enter** for optional arguments.
 
 Once this is successfully instantiated, you should see a successful notification in the output view.
 
-## 3. Run the application
+## 3. Start the application
 
 In a new terminal, navigate to the `web-app` directory:
 
