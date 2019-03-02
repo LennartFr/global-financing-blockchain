@@ -72,9 +72,6 @@ The github repository consists of the following items:
 1. docs directory. Contains the docs screen capture images 
 
 
-
-
-
 ## 2. Use the VS Code extension to set up a smart contract on a basic Fabric network
 
 Open Visual Studio code and open the `contract` folder.
@@ -170,6 +167,7 @@ In a new terminal, navigate to the `web-app` directory:
 Unified member's view:
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/app-unified-view.png">
+  <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
 ## Extending the code pattern
