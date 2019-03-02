@@ -1,13 +1,4 @@
 
-# Lennart notes: 
-
-Do nvm use 8.12.0
-
-docker rmi $(docker images -q)
-
-In VSCode teardown
-
-
 # Architecture flow
 
 <p align="center">
@@ -182,6 +173,7 @@ Unified member's view:
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
+
 ## Extending the code pattern
 This application can be expanded in a couple of ways:
 * Create a wallet for every member and use the member's wallet to interact with the application.
@@ -197,3 +189,9 @@ This application can be expanded in a couple of ways:
 This code pattern is licensed under the Apache Software License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 [Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+
+## Lennart notes: 
+
+1. If npm install and start don't work, do 'nvm use 8.12.0' to get the correct version of npm
+1. docker rmi $(docker images -q)
+1. In VSCode do teardown to rebuild the Blockchain system
