@@ -35,6 +35,9 @@ You will need to follow the requirements for the [IBM Blockchain Platform Extens
 
 # Run the application
 
+Note: to re-run the application from scratch: click on the three dots to the right of
+'Local Fabric Ops' in the left pane of the Visual Studio Code and select Teardown Fabric Runtime.
+
 ## 1. Clone the repo
 
 Clone this repository in a folder of your choice:
