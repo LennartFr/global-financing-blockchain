@@ -59,7 +59,7 @@ The github repository consists of the following items:
 
 ## 2. Use the VS Code extension to install a smart contract on a basic Fabric network
 
-Open Visual Studio code and open the `contract` folder by selecting File/Open from the VSCode action bar.
+### 2.1 Open Visual Studio code and open the `contract` folder by selecting File/Open from the VSCode action bar.
 
 Normally we would start by doing selecting 'Create a new Smart Contract Project'. But this has already been done
 for us in the GitHub repo, we can see the result in the Contract directory that we pulled down with the Git command.
@@ -70,7 +70,7 @@ So we can start directly with the second step, 'Package  smart contract project'
 </p>
 
 
-## 2.1 Package the smart contract
+## 2.2 Package the smart contract
 
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
@@ -84,7 +84,7 @@ Click the `IBM Blockchain Platform` extension button on the left. This will show
   <img height="500" src="docs/doc-images/alf-ibm-blockchain-extension.png">
 </p>
 
-## 2.2 Setup a local_fabric
+## 2.3 Setup a local_fabric
 
 Click on `local_fabric` to start a network. This will download the Docker images required for a local Fabric setup, and start the network. You should see the output window as the network sets up.
 
@@ -95,7 +95,7 @@ Click on `local_fabric` to start a network. This will download the Docker images
 Click on `local_fabric` again; it should have a full white circle next to it. This should bring up `mychannel`. You are now ready to install the smart contract.
 
 
-## 2.3 Install the smart contract
+## 2.4 Install the smart contract
 
 Click on `mychannel`, then `Peers`. This will display `peer0.org1.example.com`. Right click on it and choose `Install Smart Contract`:
 
@@ -109,7 +109,7 @@ Choose the `globalfinancing@0.0.1` contract:
   <img width="500" src="docs/doc-images/choose-smart-contract.png">
 </p>
 
-## 2.4 Instantiate the smart contract
+## 2.5 Instantiate the smart contract
 
 You are now ready to instantiate the smart contract. Right click on `mychannel` and choose `Instantiate Smart Contract`:
 
