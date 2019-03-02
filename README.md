@@ -180,7 +180,6 @@ In a new terminal, navigate to the `web-app` directory:
 
 Unified member's view:
 <div style='border: 2px solid #f00;'>
-  <img width="1000" src="docs/doc-images/app-unified-view.png">
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
