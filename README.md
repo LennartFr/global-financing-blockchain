@@ -80,8 +80,11 @@ Open Visual Studio code and open the `contract` folder.
 
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
+<img src="docs/doc-images/alffn1key.png">
+
+
 <p align="center">
-  <img src="docs/doc-images/vs-code-options.png">
+<img src="docs/doc-images/vs-code-options.png">
 </p>
 
 Click the `IBM Blockchain Platform` extension button on the left. This will show the packaged contracts on top and the blockchain connections on the bottom.
