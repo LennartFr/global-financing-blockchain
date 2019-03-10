@@ -119,11 +119,8 @@ To start the fabric runtime, we right. mouse-button click on the three donts to 
 Click on `local_fabric` to start a network. This will download the Docker images required for a local Fabric setup, and start the network. You should see the output window as the network sets up.
 
 <p align="center">
-  <img height="500" src="docs/doc-images/alf-start-fabric.png">
+  <img height="200" src="docs/doc-images/alf-start-fabric.png">
 </p>
-
-
-
 
 ## 2.4 Install the smart contract
 
