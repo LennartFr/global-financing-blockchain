@@ -103,7 +103,7 @@ Press the `F1` key to see the different VS code options. Choose `IBM Blockchain 
 <p align="left">
   <img height="500" src="docs/doc-images/alf-fnf11key.png">
 </p>
-
+<p>
 <p align="left">
   <img height="500" src="docs/doc-images/alf-left-pane.png">
 </p>
