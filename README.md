@@ -87,6 +87,11 @@ The github repository consists of the following items:
 
 ### 2.1 Open Visual Studio code and open the `contract` folder by selecting File/Open from the VSCode action bar.
 
+<p align="center">
+  <img height="500" src="docs/doc-images/alf-vscode1.png">
+</p>
+
+
 Normally we would start by doing selecting 'Create a new Smart Contract Project'. But this has already been done
 for us in the GitHub repo, we can see the result in the Contract directory that we pulled down with the Git command.
 
