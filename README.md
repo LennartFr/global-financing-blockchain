@@ -53,6 +53,7 @@ The developer uses the IBM Blockchain Platform Extension for VS Code to:
 You will need to follow the requirements for the [IBM Blockchain Platform Extension for VS Code](https://github.com/IBM-Blockchain/blockchain-vscode-extension/blob/master/README.md#requirements):
 
 - [VSCode version 1.26 or greater](https://code.visualstudio.com)
+- [IBM Blockchain Platform](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform)
 - [Node v8.x or greater and npm v5.x or greater](https://nodejs.org/en/download/)
 - [Yeoman (yo) v2.x](http://yeoman.io/)
 - [Docker version v17.06.2-ce or greater](https://www.docker.com/get-docker)
