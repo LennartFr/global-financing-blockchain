@@ -2,16 +2,16 @@
 
 # URL: https://bit.ly/2HoJQxl
 
-## Ledger view:
+## Application view:
 <div style='border: 2px solid #f00;'>
-  <img width="1000" src="docs/doc-images/alf-ledger.png">
+  <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
 # =========================================
 
-## Application view:
+## Ledger view:
 <div style='border: 2px solid #f00;'>
-  <img width="1000" src="docs/doc-images/alf-unified-view.png">
+  <img width="1000" src="docs/doc-images/alf-ledger.png">
 </div>
 
 # Architecture
