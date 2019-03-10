@@ -108,10 +108,13 @@ Press the `F1` key to see the different VS code options. Choose `IBM Blockchain 
   <img height="500" src="docs/doc-images/alf-left-pane.png">
 </p>
 
-Click the square white `IBM Blockchain Platform` extension button in the left pane. This will show the packaged contract on top and the blockchain connections on the bottom.
+Click the square white `IBM Blockchain Platform` extension button in the left pane. This will show the packaged contract on top, the 'Local Fabric Ops' and the 'Fabric Gateways' below in the same left pane.
 
 
 ## 2.3 Start the local Hyperledger network
+
+To start the fabric runtime, we right. mouse-button click on the three donts to the right of
+'Local Fabric Ops; in the middle of the left pane. 
 
 Click on `local_fabric` to start a network. This will download the Docker images required for a local Fabric setup, and start the network. You should see the output window as the network sets up.
 
