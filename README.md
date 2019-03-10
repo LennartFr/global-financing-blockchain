@@ -138,7 +138,7 @@ Click on `local_fabric` to start a network. This will download the Docker images
 You are now ready to instantiate the smart contract. Right click on `mychannel` and choose `Instantiate Smart Contract`:
 
 <p align="center">
-  <img width="300" src="docs/doc-images/instantiate-smart-contract.png">
+  <img width="300" src="docs/doc-images/alf-instantiate1.png">
 </p>
 
 Choose the `globalfinancing@0.0.1` contract:
@@ -146,6 +146,13 @@ Choose the `globalfinancing@0.0.1` contract:
 <p align="center">
   <img width="500" src="docs/doc-images/choose-instantiate-contract.png">
 </p>
+
+<p align="center">
+  <img width="500" src="docs/doc-images/alf-instantiate2.png">
+</p>
+
+
+
 
 Type in `instantiate` for the function:
 
