@@ -133,7 +133,7 @@ Click on `mychannel`, then `Peers`. This will display `peer0.org1.example.com`. 
 Choose the `globalfinancing@0.0.1` contract:
 
 <p align="center">
-  <img width="500" src="docs/doc-images/choose-smart-contract.png">
+  <img width="500" src="docs/doc-images/alf-install-instantiate.png">
 </p>
 
 ## 2.5 Instantiate the smart contract
