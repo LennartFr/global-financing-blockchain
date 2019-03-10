@@ -101,6 +101,10 @@ So we can start directly with the second step, 'Package  smart contract project'
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
 <p align="left">
+  <img height="500" src="docs/doc-images/alf-fnf11key.png">
+</p>
+
+<p align="left">
   <img height="500" src="docs/doc-images/alf-left-pane.png">
 </p>
 
