@@ -2,13 +2,14 @@
 
 # URL: https://bit.ly/2HoJQxl
 
-Unified member's view:
+## Ledger view:
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/alf-ledger.png">
 </div>
 
+#===============================================================
 
-Unified member's view:
+## Unified member's view:
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
