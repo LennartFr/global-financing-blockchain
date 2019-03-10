@@ -92,7 +92,7 @@ for us in the GitHub repo, we can see the result in the Contract directory that 
 So we can start directly with the second step, 'Package  smart contract project'.
 
 <p align="center">
-  <img src="docs/doc-images/alf-vscode1.png">
+  <img height="500" src="docs/doc-images/alf-vscode1.png">
 </p>
 
 
@@ -106,7 +106,7 @@ Press the `F1` key to see the different VS code options. Choose `IBM Blockchain 
 
 Click the `IBM Blockchain Platform` extension button on the left. This will show the packaged contracts on top and the blockchain connections on the bottom.
 
-<p align="center">
+<p align="left">
   <img height="500" src="docs/doc-images/alf-ibm-blockchain-extension.png">
 </p>
 
