@@ -89,14 +89,10 @@ The github repository consists of the following items:
 
 Normally we would start by doing selecting 'Create a new Smart Contract Project'. But this has already been done
 for us in the GitHub repo, we can see the result in the Contract directory that we pulled down with the Git command.
-So we can start directly with the second step, 'Package  smart contract project'.
-
-<p align="center">
-  <img height="500" src="docs/doc-images/alf-vscode1.png">
-</p>
-
 
 ## 2.2 Package the smart contract
+
+So we can therefore start directly with the second step, 'Package  smart contract project'.
 
 Press the `F1` key to see the different VS code options. Choose `IBM Blockchain Platform: Package a Smart Contract Project`.
 
