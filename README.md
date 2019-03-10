@@ -132,17 +132,6 @@ Click on `local_fabric` to start a network. This will download the Docker images
   <img width="700" src="docs/doc-images/alf-install2.png">
 </p>
 
-Click on `mychannel`, then `Peers`. This will display `peer0.org1.example.com`. Right click on it and choose `Install Smart Contract`:
-
-<p align="center">
-  <img width="300" src="docs/doc-images/install-smart-contract.png">
-</p>
-
-Choose the `globalfinancing@0.0.1` contract:
-
-<p align="center">
-  <img width="500" src="docs/doc-images/alf-install-instantiate.png">
-</p>
 
 ## 2.5 Instantiate the smart contract
 
