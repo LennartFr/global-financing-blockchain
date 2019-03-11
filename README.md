@@ -29,7 +29,7 @@
 * hyperledger/fabric-javaenv     latest              
 * hyperledger/fabric-tools       1.4.0               
 * hyperledger/fabric-ccenv       1.4.0               
-* hyperledger/fabric-orderer     1.4.0 //uses kafka/orderer              
+* hyperledger/fabric-orderer     1.4.0 //uses kafka/zookeeper             
 * hyperledger/fabric-peer        1.4.0               
 * hyperledger/fabric-ca          1.4.0               
 * hyperledger/fabric-zookeeper   0.4.14  // used by orderer            
