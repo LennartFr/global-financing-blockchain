@@ -7,20 +7,18 @@
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
+# =========================================
+
+## Ledger view:
+<div style='border: 2px solid #f00;'>
+  <img width="1000" src="docs/doc-images/alf-ledger.png">
+</div>
 
 # =========================================
 
 ## Hyperledger Fabric:
 <div style='border: 2px solid #f00;'>
   <img width="1000" src="docs/doc-images/alf-hyperledger-fabric.png">
-</div>
-
-
-# =========================================
-
-## Ledger view:
-<div style='border: 2px solid #f00;'>
-  <img width="1000" src="docs/doc-images/alf-ledger.png">
 </div>
 
 ============================================
