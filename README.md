@@ -909,6 +909,7 @@ or in the Visual Studio Code console, Local Fabric Ops pane, do Teardown and Res
 
 # Extending the code pattern
 * Update the application to interact through the IBM Blockchain Platform starter plan on IBM Cloud.
+* [IBM Blockchain code patterns](https://developer.ibm.com/patterns/category/blockchain/)
 
 
 ## Links
