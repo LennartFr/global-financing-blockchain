@@ -26,17 +26,17 @@
 
 ## Docker images
 
-* hyperledger/fabric-javaenv     latest              3d91b3bf7118        8 weeks ago         1.75GB
-* hyperledger/fabric-tools       1.4.0               0a44f4261a55        2 months ago        1.56GB
-* hyperledger/fabric-ccenv       1.4.0               5b31d55f5f3a        2 months ago        1.43GB
-* hyperledger/fabric-orderer     1.4.0               54f372205580        2 months ago        150MB
-* hyperledger/fabric-peer        1.4.0               304fac59b501        2 months ago        157MB
-* hyperledger/fabric-ca          1.4.0               1a804ab74f58        2 months ago        244MB
-* hyperledger/fabric-zookeeper   0.4.14              d36da0db87a4        4 months ago        1.43GB
-* hyperledger/fabric-kafka       0.4.14              a3b095201c66        4 months ago        1.44GB
-* hyperledger/fabric-couchdb     0.4.14              f14f97292b4c        4 months ago        1.5GB
-* hyperledger/fabric-baseimage   amd64-0.4.14        8c01cc0574ab        4 months ago        1.39GB
-* hyperledger/fabric-baseos      amd64-0.4.14        75f5fb1a0e0c        4 months ago        124MB
+* hyperledger/fabric-javaenv     latest              
+* hyperledger/fabric-tools       1.4.0               
+* hyperledger/fabric-ccenv       1.4.0               
+* hyperledger/fabric-orderer     1.4.0 //uses kafka/orderer              
+* hyperledger/fabric-peer        1.4.0               
+* hyperledger/fabric-ca          1.4.0               
+* hyperledger/fabric-zookeeper   0.4.14  // used by orderer            
+* hyperledger/fabric-kafka       0.4.14  // used by orderer            
+* hyperledger/fabric-couchdb     0.4.14              
+* hyperledger/fabric-baseimage   amd64-0.4.14        
+* hyperledger/fabric-baseos      amd64-0.4.14        
 
 # =========================================
 
