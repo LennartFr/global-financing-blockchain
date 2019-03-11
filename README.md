@@ -16,6 +16,13 @@
 
 # =========================================
 
+## Platform view:
+<div style='border: 2px solid #f00;'>
+  <img width="1000" src="docs/doc-images/alf-platform.png">
+</div>
+
+# =========================================
+
 ## Hyperledger Fabric minimal business network
 
 * my channel
