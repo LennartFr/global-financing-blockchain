@@ -908,8 +908,6 @@ nvm use 8.12.0
 or in the Visual Studio Code console, Local Fabric Ops pane, do Teardown and Restart Fabric Runtime  
 
 # Extending the code pattern
-This application can be expanded in a couple of ways:
-* Create a wallet for every member and use the member's wallet to interact with the application.
 * Update the application to interact through the IBM Blockchain Platform starter plan on IBM Cloud.
 
 
