@@ -158,7 +158,7 @@ Once this is successfully instantiated, you should see a successful notification
 
 ### Please note: if you get an error in npm install, run npm rebuild followed by npm install.
 
-Also try nvm use 8.10.0 followed by npm rebuild.
+Also try nvm use 8.12.0 followed by npm rebuild.
 
 In a new terminal, navigate to the `web-app` directory:
 
