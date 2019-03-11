@@ -123,6 +123,8 @@ Click on `local_fabric` to start a network. This will download the Docker images
   <img width="300" src="docs/doc-images/alf-install-instantiate.png">
 </p>
 
+Click on +Install.
+
 <p align="center">
   <img width="700" src="docs/doc-images/alf-install.png">
 </p>
