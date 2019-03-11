@@ -120,7 +120,7 @@ Click on `local_fabric` to start a network. This will download the Docker images
 ## 2.4 Install the smart contract
 
 <p align="center">
-  <img width="700" src="docs/doc-images/alf-install-instantiate.png">
+  <img width="500" src="docs/doc-images/alf-install-instantiate.png">
 </p>
 
 <p align="center">
