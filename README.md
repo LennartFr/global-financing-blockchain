@@ -16,13 +16,6 @@
 
 # =========================================
 
-## Smart Contract:
-<div style='border: 2px solid #f00;'>
-  <img width="1000" src="docs/doc-images/alf-smart-contract.png">
-</div>
-
-# =========================================
-
 ## Hyperledger Fabric minimal business network
 
 * my channel
@@ -30,6 +23,13 @@
 * peer().org1.example.com
 * ca.example.com  // Certificate Aurthority
 * Org1MSP. // Membership service provider
+
+# =========================================
+
+## Smart Contract:
+<div style='border: 2px solid #f00;'>
+  <img width="1000" src="docs/doc-images/alf-smart-contract.png">
+</div>
 
 # =========================================
 
