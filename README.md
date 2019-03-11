@@ -23,6 +23,86 @@
   <img width="1000" src="docs/doc-images/alf-ledger.png">
 </div>
 
+============================================
+
+~~~~
+
+*
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+'use strict';
+
+const { Contract } = require('fabric-contract-api');
+
+// predefined order states
+const orderStatus = {
+    Created: {code: 1, text: 'Order Created'},
+    Bought: {code: 2, text: 'Order Purchased'},
+    Cancelled: {code: 3, text: 'Order Cancelled'},
+    Ordered: {code: 4, text: 'Order Submitted to Provider'},
+    ShipRequest: {code: 5, text: 'Shipping Requested'},
+    Delivered: {code: 6, text: 'Order Delivered'},
+    Delivering: {code: 15, text: 'Order being Delivered'},
+    Backordered: {code: 7, text: 'Order Backordered'},
+    Dispute: {code: 8, text: 'Order Disputed'},
+    Resolve: {code: 9, text: 'Order Dispute Resolved'},
+    PayRequest: {code: 10, text: 'Payment Requested'},
+    Authorize: {code: 11, text: 'Payment Approved'},
+    Paid: {code: 14, text: 'Payment Processed'},
+    Refund: {code: 12, text: 'Order Refund Requested'},
+    Refunded: {code: 13, text: 'Order Refunded'}
+};
+
+// Global Finance contract
+class GlobalFinance extends Contract {
+
+    // instantiate with keys to collect participant ids
+    async instantiate(ctx) {
+
+        let emptyList = [];
+        await ctx.stub.putState('buyers', Buffer.from(JSON.stringify(emptyList)));
+        await ctx.stub.putState('sellers', Buffer.from(JSON.stringify(emptyList)));
+        await ctx.stub.putState('shippers', Buffer.from(JSON.stringify(emptyList)));
+        await ctx.stub.putState('providers', Buffer.from(JSON.stringify(emptyList)));
+        await ctx.stub.putState('financeCos', Buffer.from(JSON.stringify(emptyList)));
+    }
+
+    // add a buyer object to the blockchain state identifited by the buyerId
+    async RegisterBuyer(ctx, buyerId, companyName) {
+
+        let buyer = {
+            id: buyerId,
+            companyName: companyName,
+            type: 'buyer',
+            orders: []
+        };
+        await ctx.stub.putState(buyerId, Buffer.from(JSON.stringify(buyer)));
+
+        //add buyerId to 'buyers' key
+        let data = await ctx.stub.getState('buyers');
+        if (data) {
+            let buyers = JSON.parse(data.toString());
+            buyers.push(buyerId);
+            await ctx.stub.putState('buyers', Buffer.from(JSON.stringify(buyers)));
+        } else {
+            throw new Error('buyers not found');
+        }
+
+        // return buyer object
+        return JSON.stringify(buyer);
+
+
+~~~~
+
+
+
+============================================
+
+
+
+
+
 # Architecture
 
 <p align="center">
