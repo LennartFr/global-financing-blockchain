@@ -136,7 +136,11 @@ Click on +Install and then fill in the fields.
 
 ## 2.5 Instantiate the smart contract
 
-You are now ready to instantiate the smart contract. Right click on `mychannel` and choose `Instantiate Smart Contract`:
+You are now ready to instantiate the smart contract. 
+
+Click on +Instantiate and fill in the fields.
+
+Or right click on `mychannel` and choose `Instantiate Smart Contract`:
 
 <p align="center">
   <img width="700" src="docs/doc-images/alf-instantiate1.png">
