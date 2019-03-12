@@ -895,17 +895,21 @@ Unified member's view:
   <img width="1000" src="docs/doc-images/alf-unified-view.png">
 </div>
 
-# Debug the application
+# I things don't work, how to debug the application
 
 The application uses Node.js and can sometimes get the wrong version of Node.
 
-To debug, do 
+If npm install gets errors,
 
-npm rebuild, npm install
+do: npm rebuild, npm install
 
-nvm use 8.12.0
+And if that doesn't work, do: 
 
-or in the Visual Studio Code console, Local Fabric Ops pane, do Teardown and Restart Fabric Runtime  
+nvm use 8.12.0 npm install or nvm use 8.12.0 npm rebuild npm install
+
+the same if npm start gets errors
+
+You can also do the same if Visual Studio Code console, Local Fabric Ops pane, do Teardown and Restart Fabric Runtime  
 
 # Extending the code pattern
 
