@@ -908,6 +908,8 @@ nvm use 8.12.0
 or in the Visual Studio Code console, Local Fabric Ops pane, do Teardown and Restart Fabric Runtime  
 
 # Extending the code pattern
+
+* [Auction Events with IBM Blockchain 2.0 in the cloud](https://github.com/IBM/auction-events/blob/master/README.md)
 * Update the application to interact through the IBM Blockchain Platform starter plan on IBM Cloud.
 * [IBM Blockchain code patterns](https://developer.ibm.com/patterns/category/blockchain/)
 
