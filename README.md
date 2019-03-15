@@ -881,9 +881,11 @@ In a new terminal, navigate to the `web-app` directory:
   
   You should see the following message in your terminal window:
   
-  Listening locally on port 6001
+  'Listening locally on port 6001'
   
-  To use the user interface, begin by doing:
+  Now in a browser address bar, enter 'http://localhost:6001'
+  
+  To use the user interface, in the browser window,  begin by doing:
   
   ````
   admin preload network
