@@ -874,10 +874,14 @@ In a new terminal, navigate to the `web-app` directory:
   npm install
   ```
 
-  Run the application:
+  Start the application:
   ```bash
   npm start
   ```
+  
+  You should see the following message in your terminal window:
+  
+  Listening locally on port 6001
   
   To use the user interface, begin by doing:
   
